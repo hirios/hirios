@@ -2,13 +2,68 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Redirecionando...</title>
-  <script>
-    // Redireciona para o IP informado
-    window.location.href = "http://177.32.240.244:8080";
-  </script>
+  <title>Meus Serviços</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      color: white;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 40px;
+    }
+
+    .btn-container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .button {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 15px 25px;
+      font-size: 18px;
+      font-weight: bold;
+      background-color: #1abc9c;
+      color: white;
+      border: none;
+      border-radius: 12px;
+      text-decoration: none;
+      transition: transform 0.2s, background-color 0.3s;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .button:hover {
+      background-color: #16a085;
+      transform: scale(1.05);
+    }
+
+    .button svg {
+      width: 24px;
+      height: 24px;
+      fill: white;
+    }
+  </style>
 </head>
 <body>
-  <p>Redirecionando...</p>
-</body>
-</html>
+  <h1>Bem-vindo! Escolha um serviço:</h1>
+  <div class="btn-container">
+    <a class="button" href="http://177.32.240.244:8080/" target="_blank">
+      <!-- Ícone CasaOS -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M336 64V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64L34.5 254.6c-6.6 5.2-7.7 14.7-2.5 21.2s14.7 7.7 21.2 2.5L64 265.1V464c0 26.5 21.5 48 48 48H528c26.5 0 48-21.5 48-48V265.1l10.8 13.2c5.2 6.6 14.7 7.7 21.2 2.5s7.7-14.7 2.5-21.2L336 64zM320 96L544 288V464c0 8.8-7.2 16-16 16H416V336c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32V480H112c-8.8 0-16-7.2-16-16V288L320 96z"/></svg>
+      Acessar CasaOS
+    </a>
+
+    <a class="button" href="http://177.32.240.244:5050/" target="_blank">
+      <!-- Ícone E-mail Marketing -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M502.3 190.8l-192-160C302.4 25.5 289.5 20.5 276 24.1s-23.5 14.5-26.9 27.8L221.2 151.2l-113.7 17.6c-13.3 2.
